@@ -1,7 +1,7 @@
 ### python-basic-functions
+def get_greeting():
 
- def get_greeting():
-      return "Hello, welcome to Python programming!"
+       return "Hello, welcome to Python programming!"
 
 ### Step 1: Call the function
 message = get_greeting()

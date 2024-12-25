@@ -1,12 +1,12 @@
-# python-basic-functions
-def get_greeting():
+### python-basic-functions
 
-    return "Hello, welcome to Python programming!"
+ def get_greeting():
+      return "Hello, welcome to Python programming!"
 
-# Step 1: Call the function
+### Step 1: Call the function
 message = get_greeting()
 
-# Step 2: Print the returned value
+### Step 2: Print the returned value
 print(message)
 
 Step 1: Define the Function

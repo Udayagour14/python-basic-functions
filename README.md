@@ -1,5 +1,6 @@
 # python-basic-functions
 def get_greeting():
+
     return "Hello, welcome to Python programming!"
 
 # Step 1: Call the function

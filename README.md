@@ -66,5 +66,9 @@ def f():
 	print("Inside Function:", s)
 
 f()
+
 print(s)
+
 NameError: name 's' is not defined
+
+

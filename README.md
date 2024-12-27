@@ -1,16 +1,12 @@
 ### python-basic-functions
-def get_greeting():
-
-       return "Hello, welcome to Python programming!"
-
+> def get_greeting():
+>> return "Hello, welcome to Python programming!"
 ### Step 1: Call the function
-message = get_greeting()
-
+>message = get_greeting()
 ### Step 2: Print the returned value
-print(message)
+>print(message)
 
 Step 1: Define the Function
-
 When the Python interpreter reads the def get_greeting(): line, it stores the function in memory but does not execute it.
 The function has no arguments, so the parentheses are empty, meaning it doesn’t expect any input.
 

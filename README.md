@@ -44,3 +44,27 @@ Print the value → Outputs the string to the console.
 
 ### Final Output:
 ### Hello, welcome to Python programming!
+## Global and local variables
+
+Local variables are those that are initialized within a function and are unique to that function. It cannot be accessed outside of the function. Let’s look at how to make a local variable.
+
+def f():
+     
+      s = "I love Geeksforgeeks"  # local variable
+    
+    print(s)
+f()
+
+If we will try to use this local variable outside the function then let’s see what will happen.
+
+def f():
+	
+	# local variable
+ 
+	s = "I love Geeksforgeeks"
+ 
+	print("Inside Function:", s)
+
+f()
+print(s)
+NameError: name 's' is not defined
